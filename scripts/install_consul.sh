@@ -12,4 +12,5 @@ echo Installing Consul...
 unzip consul.zip
 sudo chmod +x consul
 sudo mv consul /usr/bin/consul
+/usr/bin/consul agent -dev &
 cd ${CURDIR}

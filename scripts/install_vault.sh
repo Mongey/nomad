@@ -12,4 +12,5 @@ echo Installing Vault...
 unzip vault.zip
 sudo chmod +x vault
 sudo mv vault /usr/bin/vault
+/usr/bin/vault server -dev &
 cd ${CURDIR}
